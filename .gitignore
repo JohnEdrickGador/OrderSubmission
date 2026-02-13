@@ -16,8 +16,6 @@ pnpm-debug.log*
 # -----------------------------
 # Environment variables
 # -----------------------------
-.env
-.env.local
 .env.*.local
 
 # -----------------------------
@@ -58,3 +56,4 @@ Thumbs.db
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+config.bat
