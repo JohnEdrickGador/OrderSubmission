@@ -1,0 +1,121 @@
+/* Global page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Order Form Styling */
+.order-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+  margin-bottom: 16px;
+}
+
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.item-row select {
+  flex: 1; /* take remaining space */
+  height: 40px; /* fixed height for alignment */
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  /* box-sizing: border-box;  */
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Number input */
+.item-row input[type="number"] {
+  width: 80px; /* fixed width */
+  height: 40px; /* same height as select */
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Remove button */
+.item-row .remove-btn {
+  height: 40px; /* same height as inputs */
+  padding: 0 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-form .add-btn {
+  background-color: #007bff;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.order-form .submit-btn {
+  background-color: #28a745;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.order-form .remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Notification Styling */
+.notification {
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.notification.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.notification.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}

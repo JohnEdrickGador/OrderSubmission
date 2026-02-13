@@ -1,0 +1,60 @@
+# -----------------------------
+# Node modules
+# -----------------------------
+node_modules/
+**/node_modules/
+
+# -----------------------------
+# Logs
+# -----------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# Build outputs
+# -----------------------------
+# Client (Vite)
+client/dist/
+client/build/
+
+# Server (Node/TS)
+server/dist/
+server/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Optional: npm package locks
+# -----------------------------
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
